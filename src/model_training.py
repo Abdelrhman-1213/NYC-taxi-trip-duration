@@ -1,4 +1,3 @@
-from sklearn.linear_model import Ridge
 import xgboost as xgb 
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_squared_error,r2_score
