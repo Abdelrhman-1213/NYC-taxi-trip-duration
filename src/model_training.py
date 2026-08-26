@@ -64,7 +64,7 @@ def load_data(root_path):
 
 def main():
     parser=argparse.ArgumentParser(description="NYC trip duration predector")
-    parser.add_argument('--root_path',type=str,default='D:/Python/ML/projects/nyc-taxi-trip-duration/data/',help="the path for the data")
+    parser.add_argument('--root_path',type=str,default='/home/abdelrhman-elnaggar/ML/Projects/NYC-taxi-trip-duration/Data/split',help="the path for the data")
     args=parser.parse_args()
     root_path=args.root_path
     #load data
