@@ -9,7 +9,7 @@ The model was built iteratively, focusing heavily on feature engineering to capt
 
 * **Baseline Model:** R2 Score: `0.066`
 * **Intermediate Model:** R2 Score: `~0.620` (Added basic temporal features)
-* **Final Model:** * **Test R2 Score:** `0.804`
+* **Final Model:** * **Test R2 Score:** `0.82`
 
 
 **How I achieved this 75% performance leap:** By engineering domain-specific features rather than just throwing a more complex algorithm at the problem.
